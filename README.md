@@ -16,3 +16,12 @@ View submitted code from every student.
 Share their code to the students code editor.
 Post files and resources (homework).
 Create courses with scheduled classes.
+
+## Run the code
+1. Make sure you run ```npm install``` for all dependencies
+2. For developing, run ```npm run dev```. This will start the project with nodemon, inspecting the changes inside project folder
+3. You can run without docker by ```npm start```
+
+## Run with docker
+1. For docker, make sure you build the image first by ```docker build -t thirdspace/code-submitting . ```
+2. Run ```docker run -p 49160:3000 -d thirdspace/code-submitting```.
