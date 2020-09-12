@@ -27,7 +27,9 @@ Create courses with scheduled classes.
 2. Run ```docker run -p 3000:3000 -d thirdspace/code-submitting```.
 
 ## Sample
-``` curl --location --request POST 'http://localhost:3000/submit' \
+Using this ```curl``` and see the response
+``` 
+curl --location --request POST 'http://localhost:3000/submit' \
 --header 'Content-Type: text/plain' \
 --data-raw ' function showMeTheCode() {
      console.log('\''yes, grab the console'\'');
